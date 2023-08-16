@@ -1,6 +1,6 @@
 import axios, { AxiosError } from "axios";
 
-const API = axios.create({ baseURL: "http://localhost:3000/api/v1/" });
+const API = axios.create({ baseURL: "https://mcsa.up.railway.app/api/v1/" });
 
 export class ApiException {
   message: string;
