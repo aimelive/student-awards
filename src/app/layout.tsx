@@ -7,6 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'MCSA - Student Awards',
   description: 'Media Club Student Awards',
+  icons: 'logo.png',
 }
 
 export default function RootLayout({

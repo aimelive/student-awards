@@ -5,6 +5,7 @@ import React from 'react'
 export const metadata: Metadata = {
     title: 'Page Not Found - MCSA Student Awards',
     description: 'Media Club Student Awards',
+    icons: 'logo.png',
 }
 
 const Page404 = () => {
