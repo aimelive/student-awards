@@ -10,7 +10,7 @@ export default function Error({
     reset: () => void;
 }) {
     return (
-        <div className="flex flex-col items-center p-5 md:p-16 space-y-8">
+        <div className="flex flex-col items-center p-5 md:p-16 space-y-8 text-white">
             <h2> {error.message}</h2>
             <button
                 onClick={reset}
